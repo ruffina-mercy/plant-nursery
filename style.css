@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("Desktop/plant.jpg");
+    background-size: cover;
+}
+.header{
+    background-color: rgb(111, 238, 111);
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color:black;
+}
+h3{
+    color:red;
+   
+}
+.topnav{
+    background-color: rgb(230, 252, 188);
+    text-align: center;
+    font-weight: 800;
+    overflow: hidden;   
+    
+}
+
+.topnav a{
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 16px 18px;
+    color:darkgreen;
+}
+
+.topnav a:hover{
+    background-color: honeydew;
+    color: darkviolet;
+}
+
+.topnav input{
+    box-align:center;
+}
