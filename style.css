@@ -5,7 +5,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("Desktop/plant.jpg");
+    background-image: url("https://i1.wp.com/sociallover.net/wp-content/uploads/2017/06/nature-images.png?resize=640%2C360");
     background-size: cover;
 }
 .header{
@@ -40,6 +40,50 @@ h3{
     color: darkviolet;
 }
 
-.topnav input{
-    box-align:center;
+.container{
+     top: 70%;
+     left: 85%;
+     position: absolute;
+     transform: translate(-50%,-50%);
+}
+#login{
+            width: 200px;
+            
+            background: transparent;
+            border-radius: 10px;
+            padding: 6px;  
+            margin-bottom: 20px;
+            color: black;
+            font-family: Western;
+
+          }
+
+
+#loginSub{
+                border-radius: 20px;
+                background:brown;
+                padding: 10px 20px; 
+                margin-top: 20px;
+                border:none;
+                outline: none;
+                color: white;
+                margin-left: 60px;
+}
+
+#loginSub:hover{
+            background-color: pink;
+            color: black;
+            cursor: pointer;
+          }
+
+a{
+    font-size: 15px;
+    font-family: western;
+}
+a:hover{
+    background:white;
+    }
+#searchBox{
+    margin: 10px;
+    border-radius: 5px;
 }
